@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link  rel="icon" href="homeicon.png" type="image/png"/>
+    <style>
+        body{
+            background-color:rgb(170, 255, 162) ;
+            margin: 0px auto;
+        }
+        h1{
+            text-align: center;
+            color: darkolivegreen;
+            font-family: Georgia;
+        }
+        form{
+            margin: 0 auto;
+        }
+        #VBlogo{
+            width: 15%;            
+        }
+        #barrabuscador{
+            border: 1px solid darkolivegreen;
+            display: flex;
+            width: 70%;
+            margin: 0 auto;
+            justify-content: space-between;
+            align-items: center;
+            vertical-align: middle;
+        }
+        #bannervideo{
+            margin: 10px auto;
+            height: 50px;
+            width: 20%;
+            display: flex;
+            box-sizing: border-box;                  
+            align-items: center;
+            background-color: rgb(113, 210, 255);
+            text-align: center;
+        }
+        #linkvid{
+            display: flex;
+            justify-content: center;      
+            align-items: center;
+            box-sizing: border-box;     
+            text-decoration: none;
+            margin: 0 auto;
+        }
+        #sb{
+            width: 70%;
+        }
+        .buscador{
+            display: inline-block;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            vertical-align: middle;
+            border-radius:15px;
+        }
+        .producto{
+            background-color: rgb(0, 54, 0);
+            color: lemonchiffon;
+            margin: 0 auto;
+            width: 30%;
+            height: 180px;
+            text-align: center;
+        }
+        .foodpic{
+            margin: 0 auto;
+            width: 90%;
+            height: 150px;
+        }
+        #muestraprods1, #muestraprods2, #muestraprods3{
+            margin: 10px auto;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center ;
+        }
+        .linkprod{
+            text-decoration: none;
+            color: lemonchiffon;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenidos!</h1>
+    <div id="barrabuscador">
+        <form>            
+            <div class="buscador">
+                <img id="VBlogo" src="verduboutiqueicon.png" alt="logo">
+                <input id="sb" type="search" placeholder="Buscar...">
+                <input type="submit" value="Buscar!">
+            </div>
+        </form>        
+    </div>
+    <div id="bannervideo">
+        <a id="linkvid" href="videopage.html">¡Video destacado! 🎦 </a>
+    </div>
+    <div id="muestraprods1">
+        <div class="producto"><a class="linkprod" href="productpage.html">Sandía <img class="foodpic" src="https://bit.ly/3sIKb2s"></a></div>
+        <div class="producto"><a class="linkprod" href="productpage.html">Banana <img class="foodpic" src="https://bit.ly/2Oj1qZg"></a></div>
+        <div class="producto"><a class="linkprod" href="productpage.html">Kiwi <img class="foodpic" src="https://bit.ly/3b9Y43I"></a></div>
+    </div>
+    <div id="muestraprods2">
+        <div class="producto"><a class="linkprod" href="productpage.html">Coco <img class="foodpic" src="https://bit.ly/3kItrW9"></a></div>
+        <div class="producto"><a class="linkprod" href="productpage.html">Melón <img class="foodpic" src="https://bit.ly/3uQPEGw"></a></div>
+        <div class="producto"><a class="linkprod" href="productpage.html">Acelga <img class="foodpic" src="https://bit.ly/3sLItNT"></a></div>
+    </div>
+    <div id="muestraprods3">
+        <div class="producto"><a class="linkprod" href="productpage.html">Espinaca <img class="foodpic" src="https://bit.ly/382Ensz"></a></div>
+        <div class="producto"><a class="linkprod" href="productpage.html">Palta <img class="foodpic" src="https://bit.ly/3e4H6pj"></a></div>
+        <div class="producto"><a class="linkprod" href="productpage.html">Espárragos <img class="foodpic" src="https://bit.ly/2OjUQSt"></a></div>
+    </div>   
+</body>
+</html>
